@@ -1,0 +1,42 @@
+// LOGO ZEBRA HERO
+
+#dolar--inject-1 {
+    opacity: 0;
+    animation: exteriors 8s ease 1s infinite alternate none;
+}
+#euro--inject-1 {
+    opacity: 0;
+    animation: exteriors 8s ease 1s infinite alternate none;
+}
+#libra--inject-1 {
+    opacity: 0;
+    animation: exteriors 8s ease 1s infinite alternate none;
+}
+#real--inject-1 {
+    opacity: 0;
+    animation: internal 8s ease 1s infinite alternate none;
+}
+
+@keyframes exteriors {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 50%;
+        transform: translateX(150px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(150px);
+    }
+}
+
+@keyframes internal {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(150px);
+    }
+}
