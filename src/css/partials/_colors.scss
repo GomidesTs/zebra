@@ -1,0 +1,71 @@
+// Colors of project
+
+// Brand-colors
+$primary-normal: #0052cc;
+$primary-dark: #003799;
+$primary-light: #4d83ea;
+
+$secondary-normal: #805500;
+$secondary-dark: #603e00;
+$secondary-light: #af8b4d;
+
+// Neutral-colors
+$black-normal: #0f141f;
+$black-dark: #000610;
+$black-light: #151b26;
+$black-darken: #0f141f;
+
+$white-normal: #e8ebf0;
+$white-dark: #d8dbe3;
+$white-light: #f7f9fc;
+
+// Gray Scale
+$gray-1: #131414;
+$gray-2: #2b2b2c;
+$gray-3: #424344;
+$gray-4: #595a5c;
+$gray-5: #717274;
+$gray-6: #888a8c;
+$gray-7: #9ea0a3;
+
+// Black Scale
+$black-1: #00050c;
+$black-2: #00060d;
+$black-3: #01060e;
+$black-4: #01070f;
+$black-5: #141a21;
+$black-6: #272c34;
+$black-7: #393f46;
+
+// Auxiliary colors
+$red-normal: #f03d3d;
+$red-dark: #d03333;
+$red-light: #f05454;
+
+$green-normal: #0bb07b;
+$green-dark: #28bb49;
+$green-light: #50e170;
+
+$yellow-normal: #ffce52;
+$yellow-dark: #d9b043;
+$yellow-light: #ffd76b;
+
+// BACKGROUND
+$background: #f7f7fa;
+$background-card: #eaeaf2;
+
+.color-white {
+    color: $white-normal;
+}
+
+.color-primary {
+    color: $primary-normal;
+}
+
+.color-secondary {
+    color: $secondary-normal;
+}
+
+.white-light {
+    color: $white-light;
+}
