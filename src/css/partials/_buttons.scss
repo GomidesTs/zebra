@@ -1,0 +1,51 @@
+a {
+    @include typeface-2(p3, desktop);
+    text-decoration: none;
+    color: $black-4;
+}
+
+.action {
+    display: inline-block;
+    position: relative;
+    color: $secondary-dark;
+    padding: 8px 0;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 90%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: $secondary-normal;
+        transition: 0.5s ease;
+    }
+    &:hover {
+        &::after {
+            width: 130%;
+        }
+    }
+}
+
+.arrows{
+    display: inline-block;
+    padding: 8px 16px;
+    position: relative;
+    transition: 0.3s linear;
+    &::after{
+        content: "";
+        position: absolute;
+        top: 42%;
+        right: -3px;
+        width: 7px;
+        height: 7px;
+        border-bottom: 2px solid $secondary-dark;
+        border-right: 2px solid $secondary-dark;
+        transform: rotate(-45deg);
+        border-radius: 1px;
+    }
+    &:hover {
+        &::after {
+            right: -5%;
+        }
+    }
+}
