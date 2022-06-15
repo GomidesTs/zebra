@@ -4,6 +4,10 @@ a {
     color: $black-4;
 }
 
+li {
+    list-style: none;
+}
+
 .action {
     display: inline-block;
     position: relative;
@@ -26,12 +30,12 @@ a {
     }
 }
 
-.arrows{
+.arrows {
     display: inline-block;
     padding: 8px 16px;
     position: relative;
     transition: 0.3s linear;
-    &::after{
+    &::after {
         content: "";
         position: absolute;
         top: 42%;
@@ -48,4 +52,57 @@ a {
             right: -5%;
         }
     }
+}
+
+.select {
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+    transition: 0.3s linear;
+    cursor: pointer;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 30%;
+        right: -3px;
+        width: 7px;
+        height: 7px;
+        border-bottom: 2px solid $secondary-dark;
+        border-right: 2px solid $secondary-dark;
+        transform: rotate(45deg);
+        border-radius: 1px;
+    }
+    &:hover {
+        &::after {
+            top: 50%;
+        }
+    }
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.btn {
+    background-color: $primary-normal;
+}
+
+form {
+    z-index: 1;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    &:focus {
+        outline: 0;
+    }
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
 }
