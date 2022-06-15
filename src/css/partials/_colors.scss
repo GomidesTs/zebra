@@ -69,3 +69,16 @@ $background-card: #eaeaf2;
 .white-light {
     color: $white-light;
 }
+
+.color-p {
+    color: $gray-1;
+}
+
+.cards {
+    background-color: $background;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.card-special {
+    background-color: $background-card;
+}
