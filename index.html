@@ -16,26 +16,149 @@
 
 <body>
     <main>
-        <div class="container hero">
+        <div class="container">
             <div class="row">
                 <div class="grid-5">
                     <h1>
                         Cuide do seu negócio enquanto cuidamos da sua transferência internacional
                     </h1>
-                    <p class="my-2">
+                    <p class="my-2 color-p">
                         Somos uma Fintech que utiliza tecnologia nos serviços de câmbio, enviando e recebendo, para
                         empresas de todos os tamanhos.
                     </p>
                     <div class="arrows">
-                        <a href="" class="action ">Saiba mais</a>
+                        <a href="" class="action">Saiba mais</a>
                     </div>
                 </div>
                 <div class="grid-7">
-                    <img src="src/svg/logo/logo-zebra.svg" alt="Logo Zebra" onload="SVGInject(this)">
+                    <img src="src/svg/logo/logo-zebra.svg" id="logo-zebra" alt="Logo Zebra" onload="SVGInject(this)">
                 </div>
             </div>
         </div>
     </main>
+    <section class="container">
+        <div class="row">
+            <div class="grid-5">
+                <h2>Um click, pagamento instantaneo</h2>
+                <p class="mt-2 color-p">É fácil, converta seus fluxos de receita a qualquer momento</p>
+                <ul class="flex-start-column mt-3">
+                    <li class="flex-start-row my-2">
+                        <img src="src/svg/icons/person.svg" class="mx-1" alt="Perfil" onload="SVGInject(this)">
+                        <p>Crie seu perfil Online em nossa plataforma</p>
+                    </li>
+                    <li class="flex-start-row my-1">
+                        <img src="src/svg/icons/shipping.svg" class="mx-1" alt="Dinheiro" onload="SVGInject(this)">
+                        <p>Acompanhe a sua remessa</p>
+                    </li>
+                    <li class="flex-start-row my-1">
+                        <img src="src/svg/icons/check.svg" class="mx-1" alt="Check" onload="SVGInject(this)">
+                        <p>Movimente seu dinheiro com praticidade e acompanhando tudo de perto</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid-6 relative">
+                <div class="form cards py-5 px-2 border-radius">
+                    <form action="">
+                        <ul class="flex">
+                            <li>Enviar</li>
+                            <li class="ml-2">Receber</li>
+                        </ul>
+                        <div class="mt-2 mb-1">
+                            <label for="">Desejo enviar</label>
+                            <label for="" style="display: none">Destinatário envia</label>
+                        </div>
+                        <div class="border border-radius">
+                            <div class="px-1 py-1 flex">
+                                <img src="src/svg/flags/usd.svg" class="icon-s" alt="Bandeira dos Estados Unidos"
+                                    onload="SVGInject(this)">
+                                <div class="select">
+                                    <p class="px-1">USD</p>
+                                </div>
+                                <input type="number" name="" id="" placeholder="$" class="ml-2">
+                            </div>
+                        </div>
+                        <div class="card-special my-1 border-radius" style="display: none">
+                            <ul class="flex-center py-1">
+                                <li class="flex mx-1 px-1 py-1 pointer">
+                                    <img src="src/svg/flags/usd.svg" class="icon-s" alt="Bandeira dos Estados Unidos"
+                                        onload="SVGInject(this)">
+                                    <p class="mx-1">USD</p>
+                                </li>
+                                <li class="flex mx-1 px-1 py-1 pointer">
+                                    <img src="src/svg/flags/gbp.svg" class="icon-s" alt="Bandeira  do Reino Unido"
+                                        onload="SVGInject(this)">
+                                    <p class="mx-1">EUR</p>
+                                </li>
+                                <li class="flex mx-1 px-1 py-1 pointer">
+                                    <img src="src/svg/flags/eur.svg" class="icon-s" alt="Bandeira  da Uniao Europeia"
+                                        onload="SVGInject(this)">
+                                    <p class="mx-1">GBP</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-4 mb-1">
+                            <label for="">Vou pagar</label>
+                            <label for="" style="display: none">Voce recebe</label>
+                        </div>
+                        <div class="border border-radius">
+                            <div class="px-1 py-1 flex">
+                                <img src="src/svg/flags/brl.svg" class="icon-s" alt="Bandeira do Brasil"
+                                    onload="SVGInject(this)">
+                                <p class="px-1">BRL</p>
+                                <p class="real px-1">R$</p>
+                            </div>
+                        </div>
+                        <div class="card-special border-radius flex-space my-2">
+                            <p class="py-1 px-1">20s</p>
+                            <div class="flex-center">
+                                <p class="py-1 px-1">Cambio comercial:</p>
+                                <img src="src/svg/icons/exclamation.svg" class="icon-sp" alt="Exclamacao"
+                                    onload="SVGInject(this)">
+                            </div>
+                            <p class="py-1 px-1">1USD =R$0.00</p>
+                        </div>
+                        <div class="flex-space">
+                            <div class="flex-center">
+                                <p class="py-1">Spreed:</p>
+                                <img src="src/svg/icons/exclamation.svg" class="icon-sp" alt="Exclamacao"
+                                    onload="SVGInject(this)">
+                            </div>
+                            <p>0.00</p>
+                        </div>
+                        <div class="flex-space">
+                            <div class="flex-center">
+                                <p class="py-1">Valor Efetivo Total (VET):</p>
+                                <img src="src/svg/icons/exclamation.svg" class="icon-sp" alt="Exclamacao"
+                                    onload="SVGInject(this)">
+                            </div>
+                            <p>1USD = R$ 0.00</p>
+                        </div>
+                        <div class="flex-space">
+                            <div class="flex-center">
+                                <div class="select">
+                                    <p class="py-1">Impostos e Taxas:</p>
+                                </div>
+                            </div>
+                            <p>0.00</p>
+                        </div>
+                        <div class="btn flex-center py-1 border-radius">
+                            <a href="" class="white-light">Enviar dinheiro</a>
+                        </div>
+                        <div class="btn flex-center py-1 border-radius" style="display: none">
+                            <a href="" class="white-light">Receber dinheiro</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="pc">
+                    <img src="src/svg/mockups/pc.svg" class="icon-xl" alt="PC" onload="SVGInject(this)">
+                </div>
+                <div class="cel">
+                    <img src="src/svg/mockups/celular.svg" class="icon-xl" alt="PC" onload="SVGInject(this)">
+                </div>
+            </div>
+<div class="grid-1 disappear"></div>
+        </div>
+    </section>
 </body>
 
 </html>
