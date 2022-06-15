@@ -1,0 +1,27 @@
+<svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="eur">
+<mask id="mask0_45_1155" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="34" height="24">
+<rect id="Rectangle 16" width="34" height="24" rx="10" fill="#666566"/>
+</mask>
+<g mask="url(#mask0_45_1155)">
+<g id="Group 16">
+<rect id="Rectangle 483" x="-8" width="49" height="24.5" fill="white"/>
+<g id="Vector 85">
+<path d="M12.4448 7.43448V0H-2.42414L12.4448 7.43448Z" fill="#012169"/>
+<path d="M2.81379 8.19483H-8V2.78793L2.81379 8.19483Z" fill="#012169"/>
+<path d="M2.81379 16.3052H-8V21.7966L2.81379 16.3052Z" fill="#012169"/>
+<path d="M12.4448 16.981V24.5H-2.42414L12.4448 16.981Z" fill="#012169"/>
+<path d="M20.6397 16.981V24.5H35.3397L20.6397 16.981Z" fill="#012169"/>
+<path d="M30.1862 16.3052H41V21.7966L30.1862 16.3052Z" fill="#012169"/>
+<path d="M41 2.78793L30.1862 8.19483H41V2.78793Z" fill="#012169"/>
+<path d="M8.22069 8.19483H4.67241L-8 1.9431V0L8.22069 8.19483Z" fill="#C8102E"/>
+<path d="M14.05 0V9.71552H-8V14.7H14.05V24.5H18.95V14.7H41V9.71552H18.95V0H14.05Z" fill="#C8102E"/>
+<path d="M12.1069 16.3052H8.47414L-8 24.5H-4.36724L12.1069 16.3052Z" fill="#C8102E"/>
+<path d="M24.5259 16.3052H28.4121L41 22.7259V24.5L24.5259 16.3052Z" fill="#C8102E"/>
+<path d="M20.9776 8.19483H24.5259L41 0H37.1983L20.9776 8.19483Z" fill="#C8102E"/>
+<path d="M20.6397 0V7.43448L35.3397 0H20.6397Z" fill="#012169"/>
+</g>
+</g>
+</g>
+</g>
+</svg>
