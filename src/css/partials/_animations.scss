@@ -85,4 +85,10 @@
     }
 }
 
-        
+
+// ZEBRA
+.zebra {
+    opacity: 0;
+    animation: zebra 3s ease infinite alternate none;
+}
+
