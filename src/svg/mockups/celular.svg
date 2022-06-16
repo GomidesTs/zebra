@@ -1,28 +1,28 @@
 <svg width="117" height="241" viewBox="0 0 117 241" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="cel">
-<g id="Rectangle 4.3" filter="url(#filter0_d_68_91)">
-<path d="M114.435 48.9309C114.435 48.7722 114.563 48.6436 114.722 48.6436C115.198 48.6436 115.584 49.0295 115.584 49.5055V73.353C115.584 73.829 115.198 74.215 114.722 74.215C114.563 74.215 114.435 74.0863 114.435 73.9276V48.9309Z" fill="#606060"/>
-</g>
-<rect id="Rectangle 432" width="114.785" height="240.068" rx="16.7978" fill="#505050"/>
-<rect id="Rectangle 433" x="50.7432" y="6.29907" width="12.5983" height="1.39982" rx="0.699908" fill="#C4C4C4"/>
-<circle id="Ellipse 21" cx="69.2904" cy="6.99894" r="1.39982" fill="#C4C4C4"/>
-<path id="tela-cel" fill-rule="evenodd" clip-rule="evenodd" d="M27.2961 6.29913C27.2961 6.18165 27.2995 6.06497 27.3062 5.94917H27.2959C27.2959 4.59634 26.1993 3.49965 24.8464 3.49954V3.49951H16.7973C9.45285 3.49951 3.49902 9.45334 3.49902 16.7978V223.621C3.49902 230.965 9.45285 236.919 16.7973 236.919H97.9866C105.331 236.919 111.285 230.965 111.285 223.621V16.7978C111.285 9.45334 105.331 3.49951 97.9866 3.49951H90.275C88.9279 3.50631 87.8379 4.60045 87.8379 5.94916H87.828C87.8348 6.06496 87.8382 6.18164 87.8382 6.29913C87.8382 9.58479 85.1746 12.2483 81.8889 12.2483H33.2453C29.9597 12.2483 27.2961 9.58479 27.2961 6.29913Z" fill="url(#paint0_linear_68_91)"/>
-<path id="zebra-cel-nome" d="M27.2998 126H37.7998L27.2998 136H37.7998M49.2998 126H39.7998V131M49.2998 136H39.7998V131M49.2998 131H39.7998M59.0498 131H51.7998M59.0498 131C61.7998 131 61.7998 126 59.5498 126C57.2998 126 51.7998 126 51.7998 126V131M59.0498 131C61.7998 131 61.7998 136 59.0498 136C56.2998 136 51.7998 136 51.7998 136V131M62.7998 136V126C62.7998 126 68.2998 126 70.5498 126C72.7998 126 73.0498 126.5 73.0498 127.75C73.0498 129 73.0498 129.25 73.0498 130.25C73.0498 131.25 71.5498 131.75 70.0498 131.75M62.7998 131.75H70.0498M70.0498 131.75L73.2998 136M75.2998 136L76.8436 132.75M87.2998 136L85.7998 133M76.8436 132.75L80.0498 126H82.2998L85.7998 133M76.8436 132.75L85.7998 133" stroke="#01070F"/>
-<path id="zebra-cel" d="M32.2998 24H82.2998V36.5644V36.8733V49.7467L32.2998 61.4871H82.2998V74H32.2998V61.4871V48.6138L82.2998 36.8733V36.5644H32.2998V24Z" fill="#00050C"/>
-</g>
-<defs>
-<filter id="filter0_d_68_91" x="111.985" y="46.8938" width="4.64871" height="29.0708" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dx="-0.699908"/>
-<feGaussianBlur stdDeviation="0.874885"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_68_91"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_68_91" result="shape"/>
-</filter>
-<linearGradient id="paint0_linear_68_91" x1="104" y1="102" x2="-31.5" y2="200" gradientUnits="userSpaceOnUse">
-<stop stop-color="#585993"/>
-<stop offset="1" stop-color="#8A8AB7" stop-opacity="0"/>
-</linearGradient>
-</defs>
+	<g id="cel">
+		<g id="Rectangle 4.3" filter="url(#filter0_d_68_91)">
+			<path d="M114.435 48.9309C114.435 48.7722 114.563 48.6436 114.722 48.6436C115.198 48.6436 115.584 49.0295 115.584 49.5055V73.353C115.584 73.829 115.198 74.215 114.722 74.215C114.563 74.215 114.435 74.0863 114.435 73.9276V48.9309Z" fill="#606060" />
+		</g>
+		<rect id="Rectangle 432" width="114.785" height="240.068" rx="16.7978" fill="#505050" />
+		<rect id="Rectangle 433" x="50.7432" y="6.29907" width="12.5983" height="1.39982" rx="0.699908" fill="#C4C4C4" />
+		<circle id="Ellipse 21" cx="69.2904" cy="6.99894" r="1.39982" fill="#C4C4C4" />
+		<path id="tela-cel" fill-rule="evenodd" clip-rule="evenodd" d="M27.2961 6.29913C27.2961 6.18165 27.2995 6.06497 27.3062 5.94917H27.2959C27.2959 4.59634 26.1993 3.49965 24.8464 3.49954V3.49951H16.7973C9.45285 3.49951 3.49902 9.45334 3.49902 16.7978V223.621C3.49902 230.965 9.45285 236.919 16.7973 236.919H97.9866C105.331 236.919 111.285 230.965 111.285 223.621V16.7978C111.285 9.45334 105.331 3.49951 97.9866 3.49951H90.275C88.9279 3.50631 87.8379 4.60045 87.8379 5.94916H87.828C87.8348 6.06496 87.8382 6.18164 87.8382 6.29913C87.8382 9.58479 85.1746 12.2483 81.8889 12.2483H33.2453C29.9597 12.2483 27.2961 9.58479 27.2961 6.29913Z" fill="url(#paint0_linear_68_91)" />
+		<path id="zebra-cel-nome" class="z-nome-cel" d="M27.2998 126H37.7998L27.2998 136H37.7998M49.2998 126H39.7998V131M49.2998 136H39.7998V131M49.2998 131H39.7998M59.0498 131H51.7998M59.0498 131C61.7998 131 61.7998 126 59.5498 126C57.2998 126 51.7998 126 51.7998 126V131M59.0498 131C61.7998 131 61.7998 136 59.0498 136C56.2998 136 51.7998 136 51.7998 136V131M62.7998 136V126C62.7998 126 68.2998 126 70.5498 126C72.7998 126 73.0498 126.5 73.0498 127.75C73.0498 129 73.0498 129.25 73.0498 130.25C73.0498 131.25 71.5498 131.75 70.0498 131.75M62.7998 131.75H70.0498M70.0498 131.75L73.2998 136M75.2998 136L76.8436 132.75M87.2998 136L85.7998 133M76.8436 132.75L80.0498 126H82.2998L85.7998 133M76.8436 132.75L85.7998 133" stroke="#01070F" />
+		<path id="zebra-cel" class="z-logo-cel-svg" d="M32.2998 24H82.2998V36.5644V36.8733V49.7467L32.2998 61.4871H82.2998V74H32.2998V61.4871V48.6138L82.2998 36.8733V36.5644H32.2998V24Z" fill="#00050C" />
+	</g>
+	<defs>
+		<filter id="filter0_d_68_91" x="111.985" y="46.8938" width="4.64871" height="29.0708" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+			<feOffset dx="-0.699908" />
+			<feGaussianBlur stdDeviation="0.874885" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_68_91" />
+			<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_68_91" result="shape" />
+		</filter>
+		<linearGradient id="paint0_linear_68_91" x1="104" y1="102" x2="-31.5" y2="200" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#585993" />
+			<stop offset="1" stop-color="#8A8AB7" stop-opacity="0" />
+		</linearGradient>
+	</defs>
 </svg>
