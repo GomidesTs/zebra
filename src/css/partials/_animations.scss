@@ -1,18 +1,17 @@
 // LOGO ZEBRA HERO
-
-#dolar--inject-1 {
+.dolar {
     opacity: 0;
     animation: exteriors 8s ease 1s infinite alternate none;
 }
-#euro--inject-1 {
+.euro {
     opacity: 0;
     animation: exteriors 8s ease 1s infinite alternate none;
 }
-#libra--inject-1 {
+.libra {
     opacity: 0;
     animation: exteriors 8s ease 1s infinite alternate none;
 }
-#real--inject-1 {
+.real-svg {
     opacity: 0;
     animation: internal 8s ease 1s infinite alternate none;
 }
@@ -40,3 +39,50 @@
         transform: translateX(150px);
     }
 }
+
+// PC E CEL
+.z-nome-pc {
+    opacity: 0;
+    animation: zebra 8s ease infinite alternate none;
+}
+
+.z-nome-cel {
+    opacity: 0;
+    animation: zebra 8s ease 4s infinite alternate none;
+}
+
+.z-logo-pc-svg {
+    opacity: 0;
+    animation: appear 8s ease forwards;
+}
+
+.z-logo-cel-svg {
+    opacity: 0;
+    animation: appear 8s ease forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes zebra {
+    from {
+        stroke-dasharray: 1 1000;
+        stroke-dashoffset: 0;
+        stroke-width: 1;
+        opacity: 1;
+    }
+    to {
+        stroke-dasharray: 150 0;
+        stroke-dashoffset: 0;
+        stroke-width: 1;
+        opacity: 1;
+    }
+}
+
+        
