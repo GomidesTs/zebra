@@ -35,6 +35,12 @@
   background-color: #eaeaf2;
 }
 
+.card {
+  background-color: #A6A6A7;
+  -webkit-box-shadow: 0px 31px 40px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 31px 40px rgba(0, 0, 0, 0.25);
+}
+
 .grid-1 {
   width: calc(8.33333% - 32px);
   margin: 16px;
@@ -1630,16 +1636,44 @@ img {
   }
 }
 
-.icon {
-  max-width: 64px;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+.whatsapp {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 8px 16px;
+}
+
+.whatsapp:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 
 @media screen and (max-width: 960px) {
-  .icon {
-    max-width: 56px;
+  .author {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
   }
+  .author .p5 {
+    margin-top: 8px;
+  }
+}
+
+.icon {
+  max-width: 50px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .icon:hover {
@@ -1649,8 +1683,8 @@ img {
 
 .icon-s {
   max-width: 36px;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 @media screen and (max-width: 960px) {
@@ -1666,8 +1700,8 @@ img {
 
 .icon-sp {
   max-width: 20px;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 @media screen and (max-width: 960px) {
@@ -1683,8 +1717,8 @@ img {
 
 .icon-l {
   max-width: 120px;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 @media screen and (max-width: 960px) {
@@ -1695,8 +1729,8 @@ img {
 
 .icon-xl {
   max-width: 400px;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 @media screen and (max-width: 960px) {
@@ -1825,25 +1859,25 @@ input[type="number"] {
           appearance: textfield;
 }
 
-#dolar--inject-1 {
+.dolar {
   opacity: 0;
   -webkit-animation: exteriors 8s ease 1s infinite alternate none;
           animation: exteriors 8s ease 1s infinite alternate none;
 }
 
-#euro--inject-1 {
+.euro {
   opacity: 0;
   -webkit-animation: exteriors 8s ease 1s infinite alternate none;
           animation: exteriors 8s ease 1s infinite alternate none;
 }
 
-#libra--inject-1 {
+.libra {
   opacity: 0;
   -webkit-animation: exteriors 8s ease 1s infinite alternate none;
           animation: exteriors 8s ease 1s infinite alternate none;
 }
 
-#real--inject-1 {
+.real-svg {
   opacity: 0;
   -webkit-animation: internal 8s ease 1s infinite alternate none;
           animation: internal 8s ease 1s infinite alternate none;
@@ -1900,6 +1934,111 @@ input[type="number"] {
     opacity: 1;
     -webkit-transform: translateX(150px);
             transform: translateX(150px);
+  }
+}
+
+.z-nome-pc {
+  opacity: 0;
+  -webkit-animation: zebra 8s ease infinite alternate none;
+          animation: zebra 8s ease infinite alternate none;
+}
+
+.z-nome-cel {
+  opacity: 0;
+  -webkit-animation: zebra 8s ease 4s infinite alternate none;
+          animation: zebra 8s ease 4s infinite alternate none;
+}
+
+.z-logo-pc-svg {
+  opacity: 0;
+  -webkit-animation: appear 8s ease forwards;
+          animation: appear 8s ease forwards;
+}
+
+.z-logo-cel-svg {
+  opacity: 0;
+  -webkit-animation: appear 8s ease forwards;
+          animation: appear 8s ease forwards;
+}
+
+@-webkit-keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes zebra {
+  from {
+    stroke-dasharray: 1 1000;
+    stroke-dashoffset: 0;
+    stroke-width: 1;
+    opacity: 1;
+  }
+  to {
+    stroke-dasharray: 150 0;
+    stroke-dashoffset: 0;
+    stroke-width: 1;
+    opacity: 1;
+  }
+}
+
+@keyframes zebra {
+  from {
+    stroke-dasharray: 1 1000;
+    stroke-dashoffset: 0;
+    stroke-width: 1;
+    opacity: 1;
+  }
+  to {
+    stroke-dasharray: 150 0;
+    stroke-dashoffset: 0;
+    stroke-width: 1;
+    opacity: 1;
+  }
+}
+
+.zebra {
+  opacity: 0;
+  -webkit-animation: zebra 3s ease infinite alternate none;
+          animation: zebra 3s ease infinite alternate none;
+}
+
+.icon-whatsapp {
+  -webkit-animation: pulse 3s ease infinite alternate none;
+          animation: pulse 3s ease infinite alternate none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+  100% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+  100% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
   }
 }
 /*# sourceMappingURL=style.css.map */
