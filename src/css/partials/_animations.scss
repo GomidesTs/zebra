@@ -85,10 +85,22 @@
     }
 }
 
-
 // ZEBRA
 .zebra {
     opacity: 0;
     animation: zebra 3s ease infinite alternate none;
 }
 
+// WHATSAPP
+.icon-whatsapp {
+    animation: pulse 3s ease infinite alternate none;
+}
+
+@keyframes pulse {
+    0%{
+        transform: rotate(-1deg);
+    }
+    100%{
+        transform: rotate(4deg);
+    }
+}
